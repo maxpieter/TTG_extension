@@ -1,23 +1,19 @@
 {
-    "manifest_version": 3,
-    "name": "My Chrome Extension",
-    "version": "1.0",
-    "description": "A basic Chrome extension template.",
-    "permissions": ["scripting", "tabs", "activeTab"],
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
-      }
-    },
-    "background": {
-      "service_worker": "background.js"
-    },
-    "icons": {
+  "manifest_version": 3,
+  "name": "Time To Go",
+  "version": "1.0",
+  "description": "Removes all HTML elements containing the word 'promoted'. Specific use case is to make job searching on LinkedIn a better experience. LinkedIn mostly shows promoted job ads, pushing real listings out of sight.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
       "16": "icon16.png",
       "48": "icon48.png",
       "128": "icon128.png"
     }
-  }
+}
