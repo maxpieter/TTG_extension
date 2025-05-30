@@ -1,6 +1,6 @@
 # Time To Go — Chrome Extension
 
-**TTG** is a lightweight Chrome extension that automatically removes job listings labeled as **"Promoted"** on LinkedIn, giving you a cleaner and more honest job search experience.
+Frustrated with the amount of irrelevent promoted job postings on linkedin, I created TTG. **TTG** is a lightweight Chrome extension that automatically removes job listings labeled as **"Promoted"**. giving you a cleaner job search experience.
 
 ## Features
 
