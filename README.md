@@ -5,8 +5,7 @@ Frustrated with the amount of irrelevent promoted job postings on linkedin, I cr
 ## Features
 
 - Automatically detects and removes "Promoted" job cards.
-- Works dynamically — supports infinite scrolling.
-- Simple, fast, and private — no tracking or data collection.
+- No tracking or data collection.
 
 ## Installation
 
